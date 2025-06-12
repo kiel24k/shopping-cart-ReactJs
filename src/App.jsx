@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div className="bg-red-100">
       <h1>dasdasdasd</h1>
-      <Button>Hahaha</Button>
+      <Button>Hhaha commit test</Button>
     </div>
   )
 }

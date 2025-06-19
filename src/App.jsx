@@ -1,13 +1,12 @@
-import { Button } from '@mui/material'
-import React from 'react'
+import { Button } from "@mui/material";
+import React from "react";
+import { RouterProvider } from "react-router-dom";
+import routes from "./router/AppRouter";
 
 const App = () => {
-  return (
-    <div className="bg-red-100">
-      <h1>dasdasdasd</h1>
-      <Button>eazir for some people</Button>
-    </div>
-  )
-}
+  return <>
+  <RouterProvider router={routes}/>
+  </>;
+};
 
-export default App
+export default App;
